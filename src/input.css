@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .icon-primary {
+    @apply grid w-36 place-items-center gap-4 text-center;
+  }
+}
